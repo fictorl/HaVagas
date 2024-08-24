@@ -248,7 +248,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="Instituição"
+            android:hint="Título Monografia"
             app:layout_constraintTop_toBottomOf="@+id/et_instituição"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
@@ -258,7 +258,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="Instituição"
+            android:hint="Orientador"
             app:layout_constraintTop_toBottomOf="@+id/et_tituloMonografia"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>

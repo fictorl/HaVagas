@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.havagas"
+    namespace = "com.example.cadastro"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.havagas"
+        applicationId = "com.example.cadastro"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -26,10 +26,17 @@ android {
             )
         }
     }
+
+    // Habilitar View Binding
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
