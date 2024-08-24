@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cadastro"
+    namespace = "com.example.havagas"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.cadastro"
+        applicationId = "com.example.havagas"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

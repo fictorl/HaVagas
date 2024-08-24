@@ -134,6 +134,7 @@
             android:padding="10dp"
             android:textColor="@color/black"
             android:textSize="15sp"
+            android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@+id/adicionarCelularCb"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
@@ -216,29 +217,31 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="Ano de Formatura"
+            android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@+id/formacaoSp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
         <!-- Aparecem apenas quando Spinner for Graduação, Especialização, Mestrado e Doutorado -->
         <EditText
-            android:id="@+id/et_anoConclusão"
+            android:id="@+id/et_anoConclusao"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="Ano de Conclusão"
-
+            android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@+id/et_anoFormacao"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
         <EditText
-            android:id="@+id/et_instituição"
+            android:id="@+id/et_instituicao"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="Instituição"
-            app:layout_constraintTop_toBottomOf="@+id/et_anoConclusão"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/et_anoConclusao"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -249,7 +252,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="Título Monografia"
-            app:layout_constraintTop_toBottomOf="@+id/et_instituição"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/et_instituicao"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -259,6 +263,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="Orientador"
+            android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@+id/et_tituloMonografia"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
